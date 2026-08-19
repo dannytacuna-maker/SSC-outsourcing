@@ -1,0 +1,14 @@
+---
+description: Always deploy SSC site changes to Vercel production
+alwaysApply: true
+---
+
+# Always deploy to Vercel production
+
+Never leave site work local-only. Never ask whether to deploy. After any visual, content, or code change, publish production immediately:
+
+```bash
+npx vercel --prod --yes
+```
+
+Run from the project root. Return the production URL when done. Preview-only deploys are not enough.

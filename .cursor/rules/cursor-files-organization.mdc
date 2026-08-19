@@ -1,0 +1,13 @@
+---
+description: SSC — all agent/docs unused by the user go in CURSOR FILES/
+alwaysApply: true
+---
+
+# CURSOR FILES (this repo)
+
+Put **all** agent docs and files the user does not use into `CURSOR FILES/`:
+`AGENTS.md`, `CLAUDE.md`, READMEs, env examples, helper scripts, plans, notes.
+
+Do not leave those in the project root (no stubs).
+
+Root should look like: site code + client assets + required config only.
